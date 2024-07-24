@@ -1,7 +1,7 @@
 {
-  "name": "Cliente-Magistral-Club-Penguin",
+  "name": "CPH-Electron",
   "version": "1.0.0",
-  "description": "Versión de escritorio de Magistral Club Penguin",
+  "description": "CPH Electron Client",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -11,11 +11,11 @@
     "appveyor-build": "electron-builder build --win --publish onTagOrDraft"
   },
   "bugs": {
-    "url": "https://github.com/floogal/magistralclubpenguinissues"
+    "url": "https://github.com/sky-is-winning/cphc"
   },
-  "homepage": "https://github.com/floogal/magistralclubpenguin#readme",
-  "repository": "https://github.com/floogal/magistralclubpenguin",
-  "author": "floogal",
+  "homepage": "http://cphistory.pw",
+  "repository": "https://github.com/sky-is-winning/cphc",
+  "author": "sky-is-winning",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^6.1.2",
@@ -28,8 +28,8 @@
     "electron-updater": "^4.2.0"
   },
   "build": {
-    "appId": "magistralclubpenguin.client",
-    "productName": "Magistral Club Penguin Client",
+    "appId": "com.cphistory.client",
+    "productName": "Club Penguin History Client",
     "asar": "false",
     "win": {
       "publish": "github"
