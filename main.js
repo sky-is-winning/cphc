@@ -29,7 +29,7 @@ function createWindow() {
 	});
 
 	mainWindow.setMenu(null);
-	mainWindow.loadURL('http://play.cphistory.pw/');
+	mainWindow.loadURL('https://play.cphistory.pw/client.html');
 
 	mainWindow.on('closed', function() {
 		mainWindow = null
